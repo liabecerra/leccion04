@@ -3,6 +3,5 @@ function swapTwoCards(deck) {
   return deck;
 }
 
-// Ejemplo de uso:
 const deck = [10, 7];
 console.log(swapTwoCards(deck)); // => [7, 10]
