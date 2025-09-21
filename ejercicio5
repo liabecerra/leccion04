@@ -3,6 +3,5 @@ function pickNamedPile(piles) {
   return chosen;
 }
 
-// Ejemplo de uso:
 const piles = { chosen: [5, 4], disregarded: [7, 10] };
 console.log(pickNamedPile(piles)); // => [5, 4]
