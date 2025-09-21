@@ -3,6 +3,5 @@ function shiftThreeCardsAround(deck) {
   return [second, third, first];
 }
 
-// Ejemplo de uso:
 const deck = [2, 6, 10];
 console.log(shiftThreeCardsAround(deck)); // => [6, 10, 2]
