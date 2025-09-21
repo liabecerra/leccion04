@@ -1,0 +1,10 @@
+function swapNamedPile(piles) {
+  const { chosen, disregarded } = piles;
+  return {
+    chosen: disregarded,
+    disregarded: chosen
+  };
+}
+
+const piles = { chosen: [5, 4], disregarded: [7, 10] };
+console.log(swapNamedPile(piles)); 
